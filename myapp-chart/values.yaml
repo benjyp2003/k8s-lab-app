@@ -151,6 +151,8 @@ volumes: []
 # Additional volumeMounts on the output Deployment definition.
 volumeMounts: []
 #
+
+
 name: myapp
 namespace: demo
 
@@ -168,7 +170,7 @@ secretName: myapp-secret
 
 config:
   appMode: dev
-  appColor: blue
+  appColor: green
 
 secret:
   appSecret: mysecret
