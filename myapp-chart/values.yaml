@@ -170,7 +170,7 @@ secretName: myapp-secret
 
 config:
   appMode: dev
-  appColor: green
+  appColor: yello
 
 secret:
   appSecret: mysecret
